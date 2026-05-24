@@ -1,8 +1,8 @@
 const experiences = [
   {
-    role: "Senior Backend Engineer",
-    company: "Nobi",
-    period: "2022 — 2024",
+    role: "Sr. Software Engineer",
+    company: "Web3 Company",
+    period: "2025 — Present",
     bullets: [
       "Built staking ledger system in Go handling high-precision reward calculations with zero balance discrepancy across 100k+ users.",
       "Designed dual API layer (gRPC + REST) enabling mobile and internal services to share one backend without divergence.",
@@ -10,19 +10,29 @@ const experiences = [
     ],
   },
   {
-    role: "Backend Engineer",
-    company: "terampil.com",
-    period: "2021 — 2022",
+    role: "Sr. Software Engineer",
+    company: "Kara Digital",
+    period: "2023 — 2025",
     bullets: [
-      "Architected Node.js/GraphQL backend for a Udemy-style platform serving 10k+ concurrent learners.",
-      "Implemented S3-based video access control to prevent content piracy without degrading streaming UX.",
-      "Tuned EC2 infrastructure to maintain sub-200ms API response times under peak load.",
+      "Developed real-time data transfer layer for IoT fitness device signals using WebSocket + Redis pub/sub.",
+      "Implemented calorie calculation engine with configurable workout formulas for 15+ exercise types.",
+      "Shipped React Native mobile app and React CMS serving worldwide users across iOS and Android.",
+    ],
+  },
+  {
+    role: "Sr. Software Engineer",
+    company: "Enkripsi Teknologi Handal (Nobi)",
+    period: "2022 — 2023",
+    bullets: [
+      "Built staking ledger system in Go handling high-precision reward calculations with zero balance discrepancy across 100k+ users.",
+      "Designed dual API layer (gRPC + REST) enabling mobile and internal services to share one backend without divergence.",
+      "Integrated RabbitMQ event pipeline for async reconciliation, reducing race conditions in concurrent trade processing.",
     ],
   },
   {
     role: "Fullstack Engineer",
-    company: "indofund.id",
-    period: "2020 — 2021",
+    company: "Bursa Akselerasi Indonesia",
+    period: "2021 — 2022",
     bullets: [
       "Built core P2P lending transaction engine with deterministic money-movement logic — zero miscalculation incidents in production.",
       "Integrated OJK-compliant third-party reporting pipeline with async reconciliation across external fintech APIs.",
@@ -30,13 +40,13 @@ const experiences = [
     ],
   },
   {
-    role: "Mobile & Backend Engineer",
-    company: "Hygear",
-    period: "2019 — 2020",
+    role: "Backend Engineer",
+    company: "Terampil Online Pratama",
+    period: "2020 — 2021",
     bullets: [
-      "Developed real-time data transfer layer for IoT fitness device signals using WebSocket + Redis pub/sub.",
-      "Implemented calorie calculation engine with configurable workout formulas for 15+ exercise types.",
-      "Shipped React Native mobile app and React CMS serving worldwide users across iOS and Android.",
+      "Architected Node.js/GraphQL backend for a Udemy-style platform serving 10k+ concurrent learners.",
+      "Implemented S3-based video access control to prevent content piracy without degrading streaming UX.",
+      "Tuned EC2 infrastructure to maintain sub-200ms API response times under peak load.",
     ],
   },
 ];
@@ -64,7 +74,7 @@ export default function Experience() {
               <div key={i} className="relative md:grid md:grid-cols-[120px_1fr] md:gap-10 group">
                 {/* Period */}
                 <div className="md:text-right mb-3 md:mb-0 pt-0.5">
-                  <span className="text-xs text-[#737373] font-medium">{exp.period}</span>
+                  <span className="text-xs text-[#737373] font-medium mr-4">{exp.period}</span>
                 </div>
 
                 {/* Dot */}

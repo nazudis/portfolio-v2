@@ -7,6 +7,7 @@ const navLinks = [
   { label: "Projects", href: "#projects" },
   { label: "Experience", href: "#experience" },
   { label: "Skills", href: "#skills" },
+  { label: "Blog", href: "#blog" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -33,7 +34,7 @@ export default function Navbar() {
           href="#"
           className="text-[#fafafa] font-semibold text-base tracking-tight hover:text-[#f97316] transition-colors duration-200"
         >
-          akmalojan<span className="text-[#f97316]">.</span>
+          fauzanakmal<span className="text-[#f97316]">.</span>
         </a>
 
         {/* Desktop nav */}

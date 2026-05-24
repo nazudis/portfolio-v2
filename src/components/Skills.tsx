@@ -1,19 +1,19 @@
 const skillGroups = [
   {
     label: "Backend",
-    skills: ["Golang", "Node.js", "Express.js", "GraphQL", "gRPC", "REST API"],
+    skills: ["Golang", "Node.js", "Express.js", "GraphQL", "gRPC", "REST API", "and more.."],
   },
   {
     label: "Frontend",
-    skills: ["React", "Next.js", "React Native", "TypeScript", "Tailwind CSS"],
+    skills: ["React", "Next.js", "React Native", "TypeScript", "Tailwind CSS", "and more.."],
   },
   {
     label: "Cloud & DevOps",
-    skills: ["AWS EC2", "AWS S3", "Google Cloud", "Docker", "CI/CD", "Nginx"],
+    skills: ["AWS EC2", "AWS S3", "Google Cloud", "Docker", "CI/CD", "Nginx", "and more.."],
   },
   {
     label: "Data & Messaging",
-    skills: ["PostgreSQL", "MongoDB", "MySQL", "Redis", "RabbitMQ", "Firebase"],
+    skills: ["PostgreSQL", "MongoDB", "MySQL", "Redis", "RabbitMQ", "Firebase", "and more.."],
   },
 ];
 

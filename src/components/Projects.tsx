@@ -1,6 +1,6 @@
 const projects = [
   {
-    name: "terampil.com",
+    name: "Terampil",
     category: "EduTech",
     tagline: "Building an e-learning platform is straightforward — until you have to make sure videos never buffer and content never leaks.",
     description:
@@ -9,7 +9,7 @@ const projects = [
     href: "https://terampil.com",
   },
   {
-    name: "indofund.id",
+    name: "Indofund",
     category: "Fintech",
     tagline: "In fintech, a bug isn't just a bug — it's someone's money going somewhere it shouldn't.",
     description:
@@ -24,7 +24,7 @@ const projects = [
     description:
       "Crypto trading and staking platform. Built the staking ledger in Go with high-precision arithmetic, reconciling balances across async RabbitMQ events. Exposed both gRPC and REST APIs to serve mobile and internal services.",
     stack: ["Golang", "gRPC", "REST", "React Native", "MySQL", "Redis", "RabbitMQ"],
-    href: "#",
+    href: "https://usenobi.com",
   },
   {
     name: "Hygear",
@@ -33,7 +33,7 @@ const projects = [
     description:
       "Worldwide fitness super app bridging real gym hardware with mobile. Handled real-time device signals, calorie calculation logic, live data feeds via WebSocket, and a React backoffice for ops teams.",
     stack: ["Node.js", "React Native", "MongoDB", "React", "Redis"],
-    href: "#",
+    href: "https://hygearfit.com/",
   },
   {
     name: "Snap Together",
@@ -51,7 +51,7 @@ const projects = [
     description:
       "Digital check-in/check-out system for residential complexes, offices, and apartments. Guards log visitors, track entry/exit, and keep a searchable audit trail — all from a clean Next.js interface backed by Go.",
     stack: ["Golang", "Next.js", "PostgreSQL"],
-    href: "#",
+    href: "https://halotamu.my.id",
   },
 ];
 

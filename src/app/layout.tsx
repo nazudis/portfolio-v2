@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Akmalojan — Backend & DevOps Engineer",
+  title: "Fauzanakmal — Backend & DevOps Engineer",
   description:
     "Backend & DevOps engineer specializing in scalable systems for Fintech, EduTech, and Web3 — from API design to cloud infrastructure on AWS and GCP.",
 };
